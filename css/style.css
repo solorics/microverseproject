@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 
 .nav-bar li {
@@ -62,4 +62,10 @@ ul li {
   display: block;
   margin: 1em 0;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: aqua;
+  }
 }
