@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  padding: 3% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left-view {
+  position: fixed;
+  width: 25%;
+  left: 0;
+  padding: 3em;
+  border-right: 1px solid #111;
+}
+.right-view {
+  position: absolute;
+  width: 70%;
+  right: 0;
+  padding: 3em;
+}
+.left-section-title h1 {
+  font-size: 3.2rem;
+  margin-bottom: 1em;
+}
+.nav-bar ul {
+  text-align: left;
+}
+.nav-bar li {
+  margin: 1.8em 0;
+  border-top: 1px solid #111;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 2.2rem;
+}
+.right-view .section-heading h2 {
+  font-size: 2.8rem;
+  padding: 0.6em 0;
+}
+.right-view p {
+  color: #666;
+  font-size: 1.6rem;
+  margin-bottom: 0.8em;
+}
